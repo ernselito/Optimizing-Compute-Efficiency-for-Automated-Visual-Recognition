@@ -1,4 +1,4 @@
-# Comparative Analysis of Deep Learning Optimizers
+# Optimizing Compute Efficiency for Automated Visual Recognition
 ## Executive Summary
 This project explores the impact of optimization algorithms on the convergence speed and accuracy of Convolutional Neural Networks (CNNs). Using the Fashion MNIST dataset, I benchmarked four industry-standard optimizers—Adam, SGD, RMSprop, and Adagrad—to determine the most robust configuration for image classification tasks.
 
