@@ -1,8 +1,13 @@
 # Optimizing Compute Efficiency for Automated Visual Recognition
 ## Executive Summary
-This project explores the impact of optimization algorithms on the convergence speed and accuracy of Convolutional Neural Networks (CNNs). Using the Fashion MNIST dataset, I benchmarked four industry-standard optimizers—Adam, SGD, RMSprop, and Adagrad—to determine the most robust configuration for image classification tasks.
+In large-scale e-commerce and logistics operations, the deployment of reliable Computer Vision models—especially those that classify inventory images—is most often delayed by inefficient training protocols. This inefficiency manifests in two critical areas:
+ - Wasted Capital: Excessive time is spent on hyperparameter tuning (grid-searching) due to utilizing a sub-optimal base training algorithm.
+ - Unacceptable Risk: Choosing a foundational training method that fails to converge reliably, resulting in deployable models with catastrophic, near-random accuracy.
 
-Key Result: The Adam optimizer proved to be the most robust choice for this architecture, achieving ~84.8% accuracy within 10 epochs, while other optimizers required significantly more aggressive hyperparameter tuning to escape local minima.
+Without a robust foundation, deep learning model training becomes a high-cost, high-risk bottleneck that drains engineering resources and delays features.
+
+In view of this, this project directly addresses the foundation of the training bottleneck by conducting a rigorous audit on the impact of optimization algorithms on Convolutional Neural Networks (CNNs).
+
 
 ## Project Objectives
 Architecture Design: Construct a scalable CNN capable of feature extraction from grayscale telemetry.
